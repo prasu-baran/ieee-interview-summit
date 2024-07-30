@@ -341,26 +341,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Describe Css ************/
-/* Add this to your CSS file */
+
 .videocon {
   border-radius: 4px;
   font-size: 20px;
-  background-color: black; /* Night sky background color */
+  background-color: black; 
   width: 240px;
   height: 120px;
   margin-top: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white; /* Text color for better contrast */
+  color: white; 
   position: relative;
   overflow: hidden;
-  border: none; /* Remove default button border */
-  cursor: pointer; /* Change cursor on hover */
+  border: none; 
+  cursor: pointer; 
 }
 
 .videocon span {
-  z-index: 1; /* Ensure text is above the ray effect */
+  z-index: 1; 
 }
 
 .videocon .ray {
