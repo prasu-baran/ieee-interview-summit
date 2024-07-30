@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./DescribeCard";
+import { DescribeCard } from "./DescribeCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import president from '../assets/img/president.webp';
 import 'animate.css';
@@ -62,7 +62,7 @@ Saifur Rahman
                         {
                           projects.map((project, index) => {
                             return (
-                              <ProjectCard
+                              <DescribeCard
                                 key={index}
                                 {...project}
                               />
